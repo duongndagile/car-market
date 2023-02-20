@@ -1,0 +1,39 @@
+.footer {
+  width: 100%;
+  //   position: absolute;
+  //   bottom: 0;
+  background-color: #edf0f5;
+  padding-top: 35px;
+  .footerHead {
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    .right {
+      .socialMedia {
+        font-weight: 700;
+        font-size: 24px !important;
+      }
+    }
+  }
+  .footerMiddle {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 35px 0 15px;
+    margin-top: 20px;
+    .detail {
+      width: 40%;
+      .infoCompany {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+    }
+  }
+  .footerBottom {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 13px 0 0;
+  }
+}

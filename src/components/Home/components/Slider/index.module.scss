@@ -1,0 +1,10 @@
+.carousel {
+  width: 100vw;
+  .slide {
+    width: 100vw;
+    height: 625px;
+    .image {
+      width: 100vw !important;
+    }
+  }
+}

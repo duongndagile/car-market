@@ -1,0 +1,18 @@
+@import "./reset.scss";
+@import "./color.scss";
+
+:root {
+  --maxWidthContent: 1140px;
+}
+
+*,
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: normal;
+  text-rendering: optimizeSpeed;
+}

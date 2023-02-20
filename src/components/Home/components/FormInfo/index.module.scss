@@ -1,0 +1,10 @@
+.formInfoStyle {
+  width: 1140px;
+  margin: 0 auto;
+  .formStyles {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+  }
+}
